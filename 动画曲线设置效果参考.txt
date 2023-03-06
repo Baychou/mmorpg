@@ -1,0 +1,9 @@
+SetEase(Ease.OutBounce);相当于一个落地之后的弹跳效果(惯性撞击反弹（物理属性）)
+.SetEase(Ease.InBack); 表示物体先向后一点，再向前播放(相当于蓄力起跑)
+Ease.InOutBack//先蓄力后退，到达目标点，在向前超过目标点，再返回目标点
+.SetEase(Ease.InBounce);相当于一个多次蓄力进入的效果
+cube.transform.DOShakeScale(5, 1, 10, 90));//果冻颤动的效果
+easeOutBounce//相当于一个球自由落体；
+easeOutElastic//快速的超过目标点再返回到目标点
+easeInExpo//先慢突然快
+easeInQuite//先慢后快
